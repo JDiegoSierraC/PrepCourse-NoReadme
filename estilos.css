@@ -1,0 +1,59 @@
+.fondo {
+    background-color: rgb(164, 222, 255);
+}
+/*con la barra inclinada y el asterisco se hace un comentario*/
+.contenido{
+    width: 60vw;
+   margin: auto;
+   padding: 1em 1em 1em 1em;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.miTexto {
+    font-size: 30px;
+    color: rgb(79, 52, 90);
+    width: fit-content;
+    margin:auto;
+}
+.prueba {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1px 1em 0em 1em;
+    border-radius: 5%;
+    margin: auto;
+}
+/*hover es una pseudo clase*/
+.prueba:hover {
+    background-color: beige;
+    transition: 1s;
+}
+.logo{
+    width: 300px;
+    height: 200px;
+}
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1px 2em 2em 2em;
+    transition: 1s;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items:center;
+}
+.cards:hover{
+    background-color: beige;
+}
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 4px solid blanchedalmond;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,38 @@
+/* Reset CSS */
+
+/* Elementos de bloque */
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Tipografía */
+body, button, input, select, textarea {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
